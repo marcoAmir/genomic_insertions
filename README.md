@@ -13,7 +13,7 @@
 	chr13	78498645	78498749	23_DS_gap22218_104_1451
 	chr20	9824436	9824623	22_DS_gap8377_187_119
 ```	
-  the 4'th field string read as:	`<chainID>_gap-type_gap-number_ref.-deleted_query_insertions`
+  the 4'th field string read as:	`*<chainID>_<gap-type>_<gap-number>_<ref.-deleted>_<query_insertions>*`
 
 	* chain_ID		// the ID of the liftOver chain (downloaded from UCSC genome browser) on which we found a gap when comparing the human genome (hg38) to a query genome
 
