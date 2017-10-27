@@ -1,6 +1,6 @@
 # Inserted genomic element in mammalian genomes
 
-## This is toolkit to scan mammalian genomes for interesting insertions of genomic fragments
+##### This is toolkit to scan mammalian genomes for interesting insertions of genomic fragments
 
 1) I'll scan liftOver chain files (hg38 based) to find insertions in other genomes relative to human
 
@@ -12,14 +12,14 @@
 	chr13	78498645	78498749	23_DS_gap22218_104_1451
 	chr20	9824436	9824623	22_DS_gap8377_187_119
 ```	
-   the 4'th field string read as:	chainI_gap-type_gap-number_ref.-deleted_query_insertions
+	the 4'th field string read as:	chainI_gap-type_gap-number_ref.-deleted_query_insertions
 
-   chain_ID		// the ID of the liftOver chain (downloaded from UCSC genome browser) on which we found a gap when comparing the human genome (hg38) to a query genome
+	* chain_ID		// the ID of the liftOver chain (downloaded from UCSC genome browser) on which we found a gap when comparing the human genome (hg38) to a query genome
 
-   gap_type		// SS if there is insertion in the query genome and no deletion in the reference; DS is we have ref deletion and query insertion (i.e., Single - and doble sided gaps, respectively)
+	* gap_type		// SS if there is insertion in the query genome and no deletion in the reference; DS is we have ref deletion and query insertion (i.e., Single - and doble sided gaps, respectively)
 
-   <ref.deleted>	// size of chain-gap in the reference genome (i.e., gaps on the target species chain)
+	* <ref.deleted>	// size of chain-gap in the reference genome (i.e., gaps on the target species chain)
 
-   <query insertions>	// size of inserted bases in the target species
+	* <query insertions>	// size of inserted bases in the target species
 
-
+© Amir Marcovitz
