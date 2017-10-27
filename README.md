@@ -1,5 +1,7 @@
 # Inserted genomic element in mammalian genomes
 
+## This is toolkit to scan mammalian genomes for interesting insertions of genomic fragments
+
 1) I'll scan liftOver chain files (hg38 based) to find insertions in other genomes relative to human
 
 2) insertions scan output for a given assembly is a bed file with four fields, eg:
@@ -19,3 +21,5 @@
    <ref.deleted>	// size of chain-gap in the reference genome (i.e., gaps on the target species chain)
 
    <query insertions>	// size of inserted bases in the target species
+
+
