@@ -5,7 +5,7 @@
 
 1) I'll scan liftOver chain files (hg38 based) to find insertions in other genomes relative to human
 
-2) To scan all insertions (across >50 mammalian genomes), run:
+2) To scan all insertions (across >50 mammalian genomes), run:  
 	./src/getAssemblyInsertions.py <assembly>	
 
 3) Output for a given assembly is a bed file with four fields, eg:
