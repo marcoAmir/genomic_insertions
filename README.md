@@ -6,7 +6,8 @@
 1) I'll scan liftOver chain files (hg38 based) to find insertions in other genomes relative to human
 
 2) To scan all insertions (across >50 mammalian genomes), run:  
-	./src/getAssemblyInsertions.py <assembly>	
+	`./src/getAssemblyInsertions.py <assembly>`  
+	(assembly for example is mm10, rn6, bosTau8 etc.)	
 
 3) Output for a given assembly is a bed file with four fields, eg:
 	in the file: output_examples/mm10.gapsInChains.bed 
