@@ -28,7 +28,7 @@ do
 done < chrom.sizes.valid
 
 # computing the coverage
-echo -e "\n\t...computing genome coverage with bedtool (genomecov)"
+echo -e "\n\t...computing genome coverage with bedtools (genomecov)"
 bedtools genomecov -bga -split -i all_fragments.bed -g chrom.sizes.valid > all_fragments.cov.bed
 
 
