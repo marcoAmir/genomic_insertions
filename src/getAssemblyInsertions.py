@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 # Amir Marcovitz
-# Date created: 10/24/2017
+# Date created: 10/27/2017
 
 # collecting all insertions from human-mammalians liftOver chains
 # this is just a minor twick to the script: /cluster/u/amirma/geneLoss/hg38/browser_visuals/assemblyLoFtracks.py
