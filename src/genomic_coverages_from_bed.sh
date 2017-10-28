@@ -31,5 +31,10 @@ done < chrom.sizes.valid
 echo -e "\n\t...computing genome coverage with bedtools (genomecov)"
 bedtools genomecov -bga -split -i all_fragments.bed -g chrom.sizes.valid > all_fragments.cov.bed
 
+awk -v cov_min=${cov_thres} -F'\t' '{if($4>=cov_min) print $1"\t"$2"\t"$3"\t"NR"_"$4}' \
+	all_fragments.cov.bed > alignable_fragments.${cov_thres}_species
+
+rm -rf all_fragments.*
+
 
 
