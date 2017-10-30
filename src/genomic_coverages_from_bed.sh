@@ -36,5 +36,7 @@ awk -v cov_min=${cov_thres} -F'\t' '{if($4>=cov_min) print $1"\t"$2"\t"$3"\t"NR"
 
 rm -rf all_fragments.*
 
+echo -e "\n\t...Done!\n"
+
 
 
